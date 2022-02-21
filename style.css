@@ -1,0 +1,40 @@
+
+html{
+  font-family: sans-serif;
+}
+header{
+  background-color: brown;
+  text-decoration-color: white;
+}
+ul{
+  text-align: center;
+  list-style: inside;
+  list-style-type:none;
+}
+body{
+  padding:0;
+  margin:0;
+  background-color: tan;
+}
+h2{
+  color: black;
+  text-align: left;
+}
+.h2{
+  color: black;
+  text-align: right;
+}
+p{
+  color: black;
+  text-align: left;
+}
+.p{
+  color: black;
+  text-align: right;
+}
+figure img{
+  border-radius: 50px;
+}
+footer{
+  background-color: brown;
+}
