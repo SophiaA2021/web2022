@@ -15,6 +15,7 @@ ul{
 a{
     text-decoration: none;
     color: inherit;
+    visibility: visible;
 }
 body{
   padding:0;
@@ -50,4 +51,5 @@ figure img{
 }
 footer{
   background-color: #D2691E;
+  text-align: center;
 }
