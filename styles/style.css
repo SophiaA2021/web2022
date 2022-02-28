@@ -17,22 +17,6 @@ section {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
-.one {
-  grid-column: 1;
-  grid-row: 1;
-}
-.two {
-  grid-column: 2;
-  grid-row: 1;
-}
-.three {
-  grid-column: 1;
-  grid-row: 2;
-}
-.four {
-  grid-column: 2;
-  grid-row: 2;
-}
 body{
   padding:0;
   margin:0;
@@ -41,18 +25,26 @@ body{
 h2{
   color: black;
   text-align: left;
+  grid-column: 1;
+  grid-row: 1;
 }
 .h2{
   color: black;
   text-align: right;
+  grid-column: 1;
+  grid-row: 2;
 }
 p{
   color: black;
   text-align: left;
+  grid-column: 2;
+  grid-row: 1;
 }
 .p{
   color: black;
   text-align: right;
+  grid-column: 2;
+  grid-row: 2;
 }
 figure img{
   border-radius: 50px;
