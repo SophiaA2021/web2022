@@ -52,12 +52,13 @@ p{
   text-align: right;
   grid-column: 2;
 }
+.p2{
+  color: black;
+  text-align: center;
+}
 figure img{
   border-radius: 50px;
 }
 footer{
   background-color: #703d18;
-}
-address{
-  text-align: center;
 }
