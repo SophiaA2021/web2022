@@ -7,6 +7,18 @@ header{
   background-color: #703d18;
   text-decoration-color: white;
 }
+header img {
+  border: 2px solid #703d18;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 50px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 15px;
+  }
 ul{
   text-decoration: none;
   text-align: center;
