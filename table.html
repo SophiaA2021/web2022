@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Table Demo</title>
+
+    <!--
+      More on tables at MDN Web Docs:
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced
+    -->
+
+    <style>
+
+      table {
+        border-collapse: collapse;
+      }
+
+      caption {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 4px black;
+        padding: 5px;
+        background-color: #703d18;
+        color: white;
+      }
+
+      thead, tfoot {
+        background-color: tan;
+        color: white;
+        font-weight: bold;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+
+      th, td {
+        padding: 5px 10px;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .rowhover:hover {
+        background-color: #703d18;
+        color: tan;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <table>
+      <caption>The Coffee Shop</caption>
+      <thead>
+        <tr>
+          <th colspan="5">Menu</th>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>Ingredients</td>
+          <td>Price</td>
+          <td>Calories</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="rowhover">
+          <td>Latte</td>
+          <td class="center">Milk and Espresso</td>
+          <td class="center">SM $2 M $3 L $4</td>
+          <td class="center">200</td>
+        </tr>
+        <tr class="rowhover">
+          <td>Cappuccino</td>
+          <td class="center">Foam Milk and Espresso</td>
+          <td class="center">SM $2.50 M $3.50 L $4.50</td>
+          <td class="center">250</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+         <td>Extras</td>
+         <td class="center">Chocolate</td>
+         <td class="center">+$3</td>
+         <td class="center">400</td>
+        </tr>
+      </tfoot>
+
+
+    </table>
+
+
+
+
+
+  </body>
+  </html>
