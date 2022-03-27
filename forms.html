@@ -8,8 +8,7 @@
     <style>
 
     .basic-form label {
-      background-color: tan;
-      color: blue;
+      color: tan;
       font-weight: bold;
       font-family: sans-serif;
       }
@@ -19,7 +18,7 @@
       font-size: 100%;
       width: 250px;
       /*height: 200px;*/
-      border: 2px solid blue;
+      border: 2px solid brown;
       background-color: tan;
       color: black;
       }
@@ -38,8 +37,6 @@
 
   </head>
   <body>
-
-
       <h1>Coffee Shop</h1>
 
       <h2>Subscribe for Rewards</h2>
@@ -53,23 +50,23 @@
             <br>
             <input type="submit" value="Subscribe!">
         </form>
-        <h2>Pre-defined list of options</h2>
 
-  <form action="scripts/action.php" method="get">
-    <label for="home-structure">What kind of coffee do you like?</label>
-    <select id="home-structure" name="home-structure">
-      <option value="">--Please choose an option--</option>
-      <option value="castle">Brewed</option>
-      <option value="tree house">Latte</option>
-      <option value="tiny home">Cappuccino</option>
-    </select>
-  </form>
-  <h2>Your opinion matters!</h2>
+    <h2>Favorite Coffee Option</h2>
+    <form action="scripts/action.php" method="get">
+      <label for="home-structure">What kind of coffee do you like?</label>
+        <select id="home-structure" name="home-structure">
+          <option value="">--Please choose an option--</option>
+          <option value="castle">Brewed</option>
+          <option value="tree house">Latte</option>
+          <option value="tiny home">Cappuccino</option>
+        </select>
+    </form>
 
-<form action="scripts/action.php" method="post">
-<label for="thoughts">What do you think of our shop?</label>
-<textarea name="thoughts" id="thoughts" rows="5" cols="100">Enter here:</textarea>
-</form>
+    <h2>Your opinion matters!</h2>
+    <form action="scripts/action.php" method="post">
+      <label for="thoughts">What do you think of our shop?<br></label>
+        <textarea name="thoughts" id="thoughts" rows="5" cols="100">Enter here:</textarea>
+    </form>
 
 </body>
 </html>
