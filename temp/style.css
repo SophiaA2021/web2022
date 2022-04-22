@@ -37,11 +37,10 @@ body{
 }
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  margin: auto;
-  width: 75%;
+  width: 85%;
 }
 h1{
   color: black;
@@ -54,7 +53,7 @@ h2{
 }
 .h2{
   color: black;
-  text-align: center;
+  text-align: right;
 }
 p{
   color: black;
